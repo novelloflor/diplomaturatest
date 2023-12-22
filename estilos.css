@@ -6,6 +6,7 @@ h1{
 }
 header{
     background-color: #98B4B2;
+    border-radius: 5px;
 }
 #datos{
     color: white;
@@ -27,12 +28,14 @@ img{
     background-color: #98B4B2;
     color: white;
     font-family: 'Bebas Neue', sans-serif;
+    border-radius: 10px;
 }
 
 #perfil{
     background-color: #a3b6b5;
     font-family: 'Bebas Neue', sans-serif; 
     color: white;
+    border-radius: 5px;
 }
 h4{
     text-align: center;

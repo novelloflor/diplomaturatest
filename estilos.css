@@ -1,23 +1,45 @@
-h3{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 h1{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 10px;
+    color: white;
 }
-p{
-    font-style: oblique;
+header{
+    background-color: #98B4B2;
 }
 #datos{
-    text-align: center;
+    /*text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    */
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 350px;
+    height: 100px;
+    margin-left: 1200px;
+    margin-top: -100px;
+}
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 270px;
+    height: 100px;
+    margin-right: 1200px;
 }
 #lista{
-    background-color: aquamarine;
+    background-color: #98B4B2;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+   /* column-count: 2;
+   */
 }
+
 #perfil{
-    background-color: antiquewhite;   
+    background-color: #a3b6b5;
+    font-family: 'Bebas Neue', sans-serif; 
+    color: white;
 }
-#imagen{
-    border-color: blue;
+h4{
+    text-align: center;
 }
+

@@ -8,9 +8,6 @@ header{
     background-color: #98B4B2;
 }
 #datos{
-    /*text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    */
     color: white;
     font-family: 'Bebas Neue', sans-serif;
     width: 350px;
@@ -30,8 +27,6 @@ img{
     background-color: #98B4B2;
     color: white;
     font-family: 'Bebas Neue', sans-serif;
-   /* column-count: 2;
-   */
 }
 
 #perfil{

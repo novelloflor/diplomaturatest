@@ -1,0 +1,39 @@
+.contenedor{
+    display: flex;
+    width: 600px;
+    height: 600px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-left: 600px;
+    border-width: 50px;
+    /*
+    background-color: pink;
+    align-content: flex-end;  //no funcionaba porque el align-content estaba antes que el flex-direction
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    margin-left: 600px;
+    */
+}
+div{
+    background-color: #f1f1f1;
+    margin: 0px;
+    width: 30px;
+    font-size: 15px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color: blue;
+    color: white;
+}
+.three{
+    background-color: green;
+    color: white;
+}

@@ -7,9 +7,10 @@
     align-content: center;
     margin-left: 600px;
     border-width: 50px;
+    border: 2px solid black;
 }
 div{
-    background-color: #f1f1f1;
+    background-color: white;
     margin: 0px;
     width: 30px;
     font-size: 15px;
@@ -23,9 +24,12 @@ div{
 }
 .two{
     background-color: blue;
-    color: white;
 }
 .three{
     background-color: green;
-    color: white;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    margin-top: 40%;
 }

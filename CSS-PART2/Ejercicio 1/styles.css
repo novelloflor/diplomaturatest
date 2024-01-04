@@ -7,6 +7,7 @@
     align-content: flex-end;
     margin-left: 600px;
     border-width: 50px;
+    border: 2px solid black;
     /*
     background-color: pink;
     align-content: flex-end;  //no funcionaba porque el align-content estaba antes que el flex-direction
@@ -17,7 +18,7 @@
     */
 }
 div{
-    background-color: #f1f1f1;
+    background-color: white;
     margin: 0px;
     width: 30px;
     font-size: 15px;
@@ -31,9 +32,12 @@ div{
 }
 .two{
     background-color: blue;
-    color: white;
 }
 .three{
     background-color: green;
-    color: white;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    margin-top: 40%;
 }

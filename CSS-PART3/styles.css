@@ -1,0 +1,32 @@
+body{
+    background-color: pink;
+}
+
+@media screen and (max-width: 800px) {
+    .contenedor-principal{
+        width: 800px;
+        background: #8FA68E;
+        margin-right:auto;
+        margin-left:auto;
+        overflow: hidden;
+    
+    }
+    .titulo{
+        background-color: rgb(100, 117, 100);
+        width: 100%;
+    }
+    .contenedor-1{
+        background-color: sandybrown;
+        width: 100%;
+    }
+    .contenedor-2{
+        background-color: rgb(243, 220, 191);
+        width: 100%;
+    }
+    .contenedor-3{
+        background-color: rgb(161, 144, 144);
+        width: 100%;
+
+    }
+
+}

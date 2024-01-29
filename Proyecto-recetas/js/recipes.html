@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recetas</title>
+        <link rel="stylesheet" href="css\recetas.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- HEADER -->
+    
+        <header>
+           <img src="img/img-comidaprincipal.avif" alt="Comfort food">
+           <h1>RECETAS</h1>
+        </header>
+    
+        <!-- NAV -->
+    
+        <nav>
+            <div class="holder">
+                <ul>
+                    <!-- señalado actualmente cual es la pagina en la que estamos, en este caso home -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="activo" href="recipes.html">Recipes</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="contact_us">Contact us!</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <!-- MAIN -->
+    
+        <main class="holder">
+            <div class="recipes-page">
+                <h3>Search your favorite recipes!</h3>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Type the name of you recipe here..." name="search" list="search-suggestions" autocomplete="off">
+                <datalist id="search-suggestions">
+                    <option value="Mac and Cheese">
+                    <option value="Spicy Ribs">
+                    <option value="Sushi">
+                    <option value="Empanadas">
+                </datalist>
+            </div>
+            <div class="recetas">
+                <img src="img/receta-recipespage.jpg" alt="Chicken waffles">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper, tortor in semper aliquam, ligula leo ultricies lacus, ut porta quam diam a nibh. Phasellus orci sem, placerat ut eros eget, lacinia luctus lectus. Ut convallis, velit a elementum tincidunt, erat ligula auctor nulla, in pharetra ligula turpis et ante. Nulla commodo porta molestie. Maecenas et quam ipsum. Duis pharetra eget tellus eget finibus. Nam egestas porttitor porta. Praesent sodales et leo dapibus efficitur. Pellentesque venenatis lacus ante, quis aliquet sem suscipit eget.</p>
+                <img src="img/receta-recipespage2.jpg" alt="Blueberry panqueques">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper, tortor in semper aliquam, ligula leo ultricies lacus, ut porta quam diam a nibh. Phasellus orci sem, placerat ut eros eget, lacinia luctus lectus. Ut convallis, velit a elementum tincidunt, erat ligula auctor nulla, in pharetra ligula turpis et ante. Nulla commodo porta molestie. Maecenas et quam ipsum. Duis pharetra eget tellus eget finibus. Nam egestas porttitor porta. Praesent sodales et leo dapibus efficitur. Pellentesque venenatis lacus ante, quis aliquet sem suscipit eget.</p>
+                <img src="img/receta-recipespage3.jpg" alt="Empanadas">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper, tortor in semper aliquam, ligula leo ultricies lacus, ut porta quam diam a nibh. Phasellus orci sem, placerat ut eros eget, lacinia luctus lectus. Ut convallis, velit a elementum tincidunt, erat ligula auctor nulla, in pharetra ligula turpis et ante. Nulla commodo porta molestie. Maecenas et quam ipsum. Duis pharetra eget tellus eget finibus. Nam egestas porttitor porta. Praesent sodales et leo dapibus efficitur. Pellentesque venenatis lacus ante, quis aliquet sem suscipit eget.</p>
+            </div>
+            
+            <!-- busqueda
+            imagen mas texto -->
+        </main>
+    
+        <!-- FOOTER -->
+    
+        <footer>Florencia Novello 2024</footer>
+    </body>

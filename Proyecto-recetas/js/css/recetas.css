@@ -1,0 +1,95 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+img{
+    width: 30%;
+}
+header{
+    background-color: lightpink;
+    padding: 16px 0;
+}
+header h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+nav{
+    background-color: rgb(252, 144, 160);
+    margin-bottom: 20px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    flex-grow: 1;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: rgb(168, 118, 125);
+}
+footer{
+    background-color: antiquewhite;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+/* Agregado para demostrar en que clase estamos en el momento en el nav bar */
+nav ul li a.activo{
+    background-color: rgb(168, 118, 125);
+}
+/* La clase holder sirve para centralizar todos los elementos del html y que queden de la misma manera el header
+nav, main y footer */
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+h2{
+    color: crimson;
+    font-weight: 400;
+}
+main img{
+    max-width: fit-content;
+}
+h3{
+    color: crimson;
+    font-weight: 800;
+}
+input[type=text]{
+    padding: 15px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: #994a4a;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    background-color: #ce9696;
+}
+.search-container input{
+    width: 50%;
+    min-width: 300px;
+    padding: 12px 24px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: 0px;
+    outline: none;
+}

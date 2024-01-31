@@ -93,3 +93,22 @@ input[type=text]{
     border: 0px;
     outline: none;
 }
+.imagenes{
+    margin-top: 15px;
+    border-radius: 5px;
+    border-color: black; 
+}
+.imagenes1{
+    margin-top: 15px;
+    border-radius: 5px;
+    border-color: black;
+    width: 180px;
+}
+.parrafos{
+    margin-left: 20%;
+    margin-top: -15%;
+}
+.parrafos1{
+    margin-left: 20%;
+    margin-top: -13%;
+}

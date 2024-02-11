@@ -9,3 +9,4 @@ function obtenerMayor(arrValores){
 
 var arrValores = [4, 5, 6, 10, 25, 2];
 obtenerMayor(arrValores);
+console.log('El valor mas alto es : ' + c);

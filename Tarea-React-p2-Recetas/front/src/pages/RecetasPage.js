@@ -1,9 +1,9 @@
 import React from "react";
-import '../styles/components/pages/RecetasPage.css';
+import '../styles/components/pages/HomePage.css';
 
 const RecetasPage = (props) => {
     return (
-        <div>
+        
             <main className="holder">
                 <div className="recipes-page">
                     <h3>Search your favorite recipes!</h3>  
@@ -18,19 +18,19 @@ const RecetasPage = (props) => {
                     </datalist>
                 </div>
                 <div>
-                    <img className="imagenes"/>
-                    <p class="parrafos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper, tortor in semper aliquam, ligula leo ultricies lacus, ut porta quam diam a nibh. Phasellus orci sem, placerat ut eros eget, lacinia luctus lectus. Ut convallis, velit a elementum tincidunt, erat ligula auctor nulla, in pharetra ligula turpis et ante. Nulla commodo porta molestie. Maecenas et quam ipsum. Duis pharetra eget tellus eget finibus. Nam egestas porttitor porta. Praesent sodales et leo dapibus efficitur. Pellentesque venenatis lacus ante, quis aliquet sem suscipit eget.</p> 
+                    <img className="imagenes" src="\images\receta-recipespage.jpg" alt="Chicken waffles"/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper, tortor in semper aliquam, ligula leo ultricies lacus, ut porta quam diam a nibh. Phasellus orci sem, placerat ut eros eget, lacinia luctus lectus. Ut convallis, velit a elementum tincidunt, erat ligula auctor nulla, in pharetra ligula turpis et ante. Nulla commodo porta molestie. Maecenas et quam ipsum. Duis pharetra eget tellus eget finibus. Nam egestas porttitor porta. Praesent sodales et leo dapibus efficitur. Pellentesque venenatis lacus ante, quis aliquet sem suscipit eget.</p>
                 </div>
                 <div>
-                    <img className="imagenes"/>
-                    <p class="parrafos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper, tortor in semper aliquam, ligula leo ultricies lacus, ut porta quam diam a nibh. Phasellus orci sem, placerat ut eros eget, lacinia luctus lectus. Ut convallis, velit a elementum tincidunt, erat ligula auctor nulla, in pharetra ligula turpis et ante. Nulla commodo porta molestie. Maecenas et quam ipsum. Duis pharetra eget tellus eget finibus. Nam egestas porttitor porta. Praesent sodales et leo dapibus efficitur. Pellentesque venenatis lacus ante, quis aliquet sem suscipit eget.</p> 
+                    <img className="imagenes" src="\images\receta-recipespage2.jpg" alt="Blueberry panqueques"/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper, tortor in semper aliquam, ligula leo ultricies lacus, ut porta quam diam a nibh. Phasellus orci sem, placerat ut eros eget, lacinia luctus lectus. Ut convallis, velit a elementum tincidunt, erat ligula auctor nulla, in pharetra ligula turpis et ante. Nulla commodo porta molestie. Maecenas et quam ipsum. Duis pharetra eget tellus eget finibus. Nam egestas porttitor porta. Praesent sodales et leo dapibus efficitur. Pellentesque venenatis lacus ante, quis aliquet sem suscipit eget.</p>
                 </div>
                 <div>
-                    <img className="imagenes1"/>
-                    <p class="parrafos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper, tortor in semper aliquam, ligula leo ultricies lacus, ut porta quam diam a nibh. Phasellus orci sem, placerat ut eros eget, lacinia luctus lectus. Ut convallis, velit a elementum tincidunt, erat ligula auctor nulla, in pharetra ligula turpis et ante. Nulla commodo porta molestie. Maecenas et quam ipsum. Duis pharetra eget tellus eget finibus. Nam egestas porttitor porta. Praesent sodales et leo dapibus efficitur. Pellentesque venenatis lacus ante, quis aliquet sem suscipit eget.</p> 
+                    <img className="imagenes1" src="\images\receta-recipespage3.jpg" alt="Empanadas"/>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper, tortor in semper aliquam, ligula leo ultricies lacus, ut porta quam diam a nibh. Phasellus orci sem, placerat ut eros eget, lacinia luctus lectus. Ut convallis, velit a elementum tincidunt, erat ligula auctor nulla, in pharetra ligula turpis et ante. Nulla commodo porta molestie. Maecenas et quam ipsum. Duis pharetra eget tellus eget finibus. Nam egestas porttitor porta. Praesent sodales et leo dapibus efficitur. Pellentesque venenatis lacus ante, quis aliquet sem suscipit eget.</p>
+                
                 </div>
             </main>
-        </div>
     );
 }
 export default RecetasPage;

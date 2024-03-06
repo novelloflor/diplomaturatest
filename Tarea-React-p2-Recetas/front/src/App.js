@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import './styles/components/pages/Normalize.css'
+import './styles/components/pages/HomePage.css';
 
 import Header from './components/layout/Header';
 import Nav from './components/layout/Nav';

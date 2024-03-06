@@ -97,12 +97,14 @@ input[type=text]{
     margin-top: 15px;
     border-radius: 5px;
     border-color: black; 
+    margin-left: -70%;
 }
 .imagenes1{
     margin-top: 15px;
     border-radius: 5px;
     border-color: black;
     width: 180px;
+    margin-left: -70%;
 }
 .parrafos{
     margin-left: 20%;

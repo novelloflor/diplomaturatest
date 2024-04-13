@@ -4,6 +4,10 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+var loginRouter = require('./routes/admin/login');
+
+app.use('/admin/login', loginRouter);
+
 require('dotenv').config();
 var pool = require('./models/bd');
 

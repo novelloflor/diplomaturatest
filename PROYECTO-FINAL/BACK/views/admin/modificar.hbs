@@ -1,0 +1,26 @@
+<div class="container" style="margin:100px auto">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h4>Modificar la receta</h4>
+            <form action="/admin/recetas/modificar" method="post">
+                <input type="hidden" value="{{receta.id}}" name="id">
+                <div class="mb-3 row">
+                    <label for="">Titulo</label>
+                    <input type="text" class="form-control" name="titulo" value="{{receta.titulo}}">
+                </div>
+                <div class="mb-3 row">
+                    <label for="">Subtitulo</label>
+                    <input type="text" class="form-control" name="subtitulo" value="{{receta.subtitulo}}">
+                </div>
+                <div class="mb-3 row">
+                    <label for="">Cuerpo</label>
+                    <textarea class="form-control" name="cuerpo">{{receta.cuerpo}}</textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Guardar</button>
+            </form>
+            {{#if error}}
+                <p>{{message}}</p>
+            {{/if}}
+        </div>
+    </div>
+</div>

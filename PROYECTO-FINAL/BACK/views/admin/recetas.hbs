@@ -1,0 +1,40 @@
+<div class="container" style="margin-top: 50px;">
+    <div class="row">
+        <p class="text-end">Hola {{persona}} ! <a class="btn btn-danger" href="/admin/login/logout">Cerrar sesión<i class="fas fa-sign-out-alt"></i></a></p>
+    </div>
+</div>
+<div>
+    <div class="col-7">
+        <h3>Tus recetas</h3>
+    </div>
+    <div class="col-5 text-end">
+        <a class="btn btn-success" href="/admin/recetas/agregar"><i class="fa fa-plus" aria-hidden="true"></i>Agregar nueva receta</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <table class="table">
+            <thead>
+                <tr class="table-dark">
+                    <th scope="col">#</th>
+                    <th scope="col">titulo</th>
+                    
+                    <th scope="text-end">Acciones</th>
+                </tr>
+            </thead>
+
+            {{#each recetas}}
+            <tbody>
+                <tr>
+                    <th scope="row">{{id}}</th>
+                    <td>{{titulo}}</td>
+                    <td class="text-end">
+                        <a class="btn btn-secondary" href="/admin/recetas/modificar/{{id}}"><i class="fa fa-pencil" aria-hidden="true"></i>Editar</a>
+                        <a class="btn btn-secondary" href="/admin/recetas/eliminar/{{id}}"><i class="fa fa-trash" aria-hidden="true"></i>Eliminar</a>
+                    </td>
+                </tr>
+            </tbody>
+            {{/each}}
+        </table>
+    </div>
+</div>

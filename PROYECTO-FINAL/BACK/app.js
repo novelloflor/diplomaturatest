@@ -10,7 +10,7 @@ var session = require('express-session');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var loginRouter = require('./routes/admin/login');
-var adminRouter = require('./routes/admin/novedades');
+var adminRouter = require('./routes/admin/recetas');
 const { secureHeapUsed } = require('crypto');
 
 var app = express();
@@ -48,7 +48,7 @@ secured = async (req, res, next) => {  //capa extra para seguridad de autenticac
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/admin/login', loginRouter);
-app.use('/admin/novedades', secured, adminRouter);
+app.use('/admin/recetas', secured, adminRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

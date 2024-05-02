@@ -17,9 +17,9 @@
             <thead>
                 <tr class="table-dark">
                     <th scope="col">#</th>
-                    <th scope="col">titulo</th>
+                    <th scope="col">Titulo</th>
                     
-                    <th scope="text-end">Acciones</th>
+                    <th scope="text-end">Imagen</th>
                 </tr>
             </thead>
 
@@ -28,6 +28,7 @@
                 <tr>
                     <th scope="row">{{id}}</th>
                     <td>{{titulo}}</td>
+                    <td>{{{imagen}}}</td>
                     <td class="text-end">
                         <a class="btn btn-secondary" href="/admin/recetas/modificar/{{id}}"><i class="fa fa-pencil" aria-hidden="true"></i>Editar</a>
                         <a class="btn btn-secondary" href="/admin/recetas/eliminar/{{id}}"><i class="fa fa-trash" aria-hidden="true"></i>Eliminar</a>

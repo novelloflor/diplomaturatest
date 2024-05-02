@@ -3,6 +3,8 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var fileUpload = require('express-fileupload');
+var cors = require('cors');
 
 require('dotenv').config();
 var session = require('express-session');
@@ -11,6 +13,8 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var loginRouter = require('./routes/admin/login');
 var adminRouter = require('./routes/admin/recetas');
+var apiRouter = require('./routes/api');
+
 const { secureHeapUsed } = require('crypto');
 
 var app = express();
@@ -45,10 +49,18 @@ secured = async (req, res, next) => {  //capa extra para seguridad de autenticac
   }
 }
 
+
+app.use(fileUpload({
+  useTempFiles: true,
+  tempFileDir: '/tmp/'
+}));
+
+
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/admin/login', loginRouter);
 app.use('/admin/recetas', secured, adminRouter);
+app.use('/api', cors(), apiRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

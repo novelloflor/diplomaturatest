@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import RecetaItem from './../components/recetas/RecetaItem';
+import '../assets/css/recetas.css';
 
 
 const RecetasPage = (props) => {
@@ -19,7 +20,6 @@ const RecetasPage = (props) => {
 
     return(
         <section className='holder'>
-            <h2>Recetas</h2>
             {
                 loading ? (
                     <p>Cargando...</p>
